@@ -1,0 +1,15 @@
+﻿POST http://localhost:7245/api/CalcRequestStarter
+{
+    "clientId":444,
+    "messageLabel":"444-444-444"
+}
+
+
+GET http://localhost:7245/api/GetCalcRequestDurableEntity/444-444-444
+
+
+POST http://localhost:7245/api/CreateCalcRequestDurableEntity
+{
+    "clientId":555,
+    "messageLabel":"555-555-557"
+}

@@ -1,0 +1,2 @@
+﻿GET http://localhost:7245/api/DummyOrchestrationHttpStart
+GET http://localhost:7245/api/GetDummyDurableEntity/nenad-dymmy-entity
