@@ -1,0 +1,1 @@
+﻿{"MessageTypeName":"ItemCreatedMessage","Guid":"6c6f9b19-5fce-42ba-9306-909ba82ced62","ClientId":"27781","EnqueuedAtUtc":"2022-09-06T17:52:10.8784124Z","ItemName":"Nenad","ItemNumber":10,"ItemCreatedAtUtc":"2022-09-06T17:52:10.8785292Z","ItemCreatedByUserId":"nenad-id"}
