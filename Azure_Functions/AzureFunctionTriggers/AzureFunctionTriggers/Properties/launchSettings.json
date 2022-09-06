@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "AzureFunctionTriggers": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7239",
+      "hotReloadEnabled": false
+    }
+  }
+}
