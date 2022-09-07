@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{447BB4E4-19EB-4F36-ACE9-60F18E020769}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobStorageShared", "BlobStorageShared\BlobStorageShared.csproj", "{58A36676-2A2D-4299-9284-40A7289D252E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{447BB4E4-19EB-4F36-ACE9-60F18E020769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{447BB4E4-19EB-4F36-ACE9-60F18E020769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{447BB4E4-19EB-4F36-ACE9-60F18E020769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{447BB4E4-19EB-4F36-ACE9-60F18E020769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58A36676-2A2D-4299-9284-40A7289D252E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58A36676-2A2D-4299-9284-40A7289D252E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58A36676-2A2D-4299-9284-40A7289D252E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58A36676-2A2D-4299-9284-40A7289D252E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66168610-5E7D-40AE-8398-A3AF607A617A}
+	EndGlobalSection
+EndGlobal
