@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionApp", "FunctionApp\FunctionApp.csproj", "{E72E6A82-3309-417C-A717-98CC6C6AA954}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DurableEntitiesExample", "DurableEntitiesExample\DurableEntitiesExample.csproj", "{2C029AF0-D8E4-41D3-9C51-06DC7697DD73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E72E6A82-3309-417C-A717-98CC6C6AA954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E72E6A82-3309-417C-A717-98CC6C6AA954}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E72E6A82-3309-417C-A717-98CC6C6AA954}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E72E6A82-3309-417C-A717-98CC6C6AA954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C029AF0-D8E4-41D3-9C51-06DC7697DD73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C029AF0-D8E4-41D3-9C51-06DC7697DD73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C029AF0-D8E4-41D3-9C51-06DC7697DD73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C029AF0-D8E4-41D3-9C51-06DC7697DD73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
