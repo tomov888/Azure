@@ -7,16 +7,29 @@ namespace TestApp
 {
 	public class Program
 	{
-		private static string ConnectionString = "fake-connection-stirng";
+		private static string ConnectionString = "fake-cs";
 		private static BlobStorageJsonRepository<PersonDto> _personRepo;
+		private static BlobFileRepository _blobFileRepo;
 		public static void Main(string[] args)
 		{
 			var logger = LoggerFactory.Create(x => x.SetMinimumLevel(LogLevel.Information)).CreateLogger(nameof(BlobStorageJsonRepository<PersonDto>));
 			_personRepo = new BlobStorageJsonRepository<PersonDto>(logger, ConnectionString, "test-container");
+			_blobFileRepo = new BlobFileRepository(logger, ConnectionString, "test-container");
 
 			Console.WriteLine("#### BlobStorage Test App ####");
 			TestWriteAndRead();
 			TestWriteAndSerachByTags();
+			UploadAndDownloadFile();
+		}
+
+		private static void UploadAndDownloadFile()
+		{
+			var filePath = @"C:\Users\nen040722\source\repos\playground\personal\Azure\Azure_Blob_Storage\dotnet\AzureBlobStorage\BlobStorageShared\Files\cv.pdf";
+			
+			_blobFileRepo.UploadFileAsync(filePath).GetAwaiter().GetResult();
+
+			_blobFileRepo.DownloadFileAsync($"{Path.GetFileName(filePath)}").GetAwaiter().GetResult();
+
 		}
 
 		private static void TestWriteAndSerachByTags()
